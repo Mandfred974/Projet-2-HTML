@@ -11,7 +11,7 @@ nav {
 
 nav img{
     height: 60px; /* Modifier la taille de l'image */
-    margin-left: 20px; /* Marge a gauche de l'image */
+    margin-left: 40px; /* Marge a gauche de l'image */
     margin-top: 10px; /* Marge au dessus de l'image */
 }
 
@@ -25,7 +25,6 @@ nav ul{
     padding-inline-start: 0; 
 }
 
-
 nav li:hover{
     box-shadow: 0px -5px #0065FC; /* Survoller la box et afficher la couleur en haut */
 }
@@ -33,9 +32,25 @@ nav li:hover{
 nav li{
     margin: 5px 49px 0 37px; /* Mettre de l'espace entre les li, haut droite bas gauche */
     cursor: pointer;
-    /* border-top: 2px solid transparent; */
     padding: 25px 15px 0 15px; /* Margin interieur */
     box-shadow: 0px -5px white; /* Ne pas afficher qu'il y as une box */
 }
-
 /* Header */
+/* Main */
+main {
+    padding-left: 20px;
+}
+/* Main */
+/* Section 1 */
+
+h1{
+    font-size: 20px;
+}
+
+.Recherche {
+    display: flex;
+    border: 3px #DEEBFF solid;
+    margin: 0px;
+    border-radius: 10px;
+    width: auto;
+}
