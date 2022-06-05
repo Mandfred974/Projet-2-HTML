@@ -13,6 +13,7 @@ nav img{
     height: 60px; /* Modifier la taille de l'image */
     margin-left: 40px; /* Marge a gauche de l'image */
     margin-top: 10px; /* Marge au dessus de l'image */
+    margin-bottom: 10px; /* Marge au dessous de l'image */
 }
 
 nav ul{
@@ -27,10 +28,11 @@ nav ul{
 
 nav li:hover{
     box-shadow: 0px -5px #0065FC; /* Survoller la box et afficher la couleur en haut */
+    color: #0065FC;
 }
 
 nav li{
-    margin: 5px 49px 0 37px; /* Mettre de l'espace entre les li, haut droite bas gauche */
+    margin: 3px 40px 0 37px; /* Mettre de l'espace entre les li, haut droite bas gauche */
     cursor: pointer;
     padding: 25px 15px 0 15px; /* Margin interieur */
     box-shadow: 0px -5px white; /* Ne pas afficher qu'il y as une box */
@@ -42,7 +44,6 @@ main {
 }
 /* Main */
 /* Section 1 */
-
 h1{
     font-size: 20px;
     font-weight: bold;
@@ -50,14 +51,12 @@ h1{
 .Section1{
     display: flex;
 }
-
-.Recherche{ /* Box pour les 3 partie */
+.Recherche{ /* Box pour les 3 partie */ /* Partie recherche */
     display: flex;
     position: relative;
     width: 30%; /* Limiter a 30% la longueur par rapport à la taille de l'écran */
     justify-content: space-around;
     align-items: baseline;
-
 }
 .IconeRecherche{
     position: absolute;
@@ -89,38 +88,56 @@ h1{
     right: 0%;
     width: 30%;
     padding: 2%;
-} 
-
-/*
-.Recherche{
+} /* Partie recherche */
+#Filtre{
     display: flex;
-    position: absolute;
-    border-radius: 5px 5px 5px 5px;
-    padding: 0 0 0 0; /* Barre de recherche en fonction d'autour *//*
+    font-weight: bold;
+    align-items: baseline;
 }
-form{
-    padding: 7px; /* Marge à l'exterieur du formulaire *//*
-}
-#search{
-    position: relative;
-    background-color: #0065FC;
-    border: #F2F2F2;
-    padding: 0 10px  0 10px;
-    color: white; /* Couleur du texte rechercher *//*
-    font-weight: bold; /* Ecris en gras *//*
-    border-radius: 0 5px 5px 0;
-    cursor:pointer;
-}
-.FormulaireRecherche{
+#IconeFiltres{
     display: flex;
-    position: relative;
+    align-items: baseline;
+    /*border: 1px solid red; */
+}
+.Filtres{
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 0;
+    flex-wrap: wrap;
+    padding:15px 9px 15px 9px;
+    border-radius: 100%;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+.IconeFiltres{
+    display: flex;
+    align-items: baseline;
     border: 1px solid #F2F2F2;
-    margin: 0;
+    border-radius: 50px 50px 50px 50px;
+    padding: 0 15px 0 0;
+    margin-block-start: 60px; /* Suprimer les marges naturel du site */
+    margin-block-end: 0; 
+    margin-inline-start: 11px; /* Séparer les icones entre eux */
+    margin-inline-end: 0; 
+    padding-inline-start: 0;
 }
-.fa-solid{
-    display: flex;
-    position: relative;
-    background-color: #F2F2F2; 
-    padding: 3px 10px  3px 10px;
-    border-radius: 5px 0 0 5px;
-} */
+.IconeFiltres p{
+    margin: 0 0 0 0; /* Marge entre l'icone et la barre autour */
+} /* Fin filtre */
+
+#FiltreInfo{
+    display: flex; /* Mettre les box cote a cote */
+    align-items: center;
+}
+.FiltreInfo{
+    padding: 0 0 0 0; 
+}
+.FiltreInfo i{
+    color: white;
+    background-color: #0065FC;
+    border-radius: 100%;
+    border: 1px solid #DEEBFF;
+    padding: 9px 0 9px 0;
+    margin-right: 20px;
+} 
+/* Fin de la section 1 Début section 2 */
