@@ -45,12 +45,82 @@ main {
 
 h1{
     font-size: 20px;
+    font-weight: bold;
+}
+.Section1{
+    display: flex;
 }
 
-.Recherche {
+.Recherche{ /* Box pour les 3 partie */
     display: flex;
-    border: 3px #DEEBFF solid;
-    margin: 0px;
-    border-radius: 10px;
-    width: auto;
+    position: relative;
+    width: 30%; /* Limiter a 30% la longueur par rapport à la taille de l'écran */
+    justify-content: space-around;
+    align-items: baseline;
+
 }
+.IconeRecherche{
+    position: absolute;
+    background-color: #F2F2F2; 
+    border-radius: 5px 0 0 5px;
+    left: 0%;
+    right: 94%;
+    width: 7%;
+    padding: 2.1%;
+}
+.FormulaireRecherche{
+    display: flex;
+    position: absolute;
+    border: 1px solid #F2F2F2;
+    left: 7%;
+    width: 63%;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 1.8%;
+}
+#search{
+    position: absolute;
+    background-color: #0065FC;
+    border: #F2F2F2;
+    color: white; /* Couleur du texte rechercher */
+    font-weight: bold; /* Ecris en gras */
+    border-radius: 0 5px 5px 0;
+    cursor:pointer;
+    right: 0%;
+    width: 30%;
+    padding: 2%;
+} 
+
+/*
+.Recherche{
+    display: flex;
+    position: absolute;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0 0 0 0; /* Barre de recherche en fonction d'autour *//*
+}
+form{
+    padding: 7px; /* Marge à l'exterieur du formulaire *//*
+}
+#search{
+    position: relative;
+    background-color: #0065FC;
+    border: #F2F2F2;
+    padding: 0 10px  0 10px;
+    color: white; /* Couleur du texte rechercher *//*
+    font-weight: bold; /* Ecris en gras *//*
+    border-radius: 0 5px 5px 0;
+    cursor:pointer;
+}
+.FormulaireRecherche{
+    display: flex;
+    position: relative;
+    border: 1px solid #F2F2F2;
+    margin: 0;
+}
+.fa-solid{
+    display: flex;
+    position: relative;
+    background-color: #F2F2F2; 
+    padding: 3px 10px  3px 10px;
+    border-radius: 5px 0 0 5px;
+} */
