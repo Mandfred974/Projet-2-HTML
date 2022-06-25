@@ -1,0 +1,29 @@
+/* Section1 */
+#Filtre{
+    width: 850px;
+}
+.Recherche{
+    width: 500px;
+}
+/* Fin Section1 */
+/* Section2 */
+#CardHébergements{
+    width: 700px;
+}
+#CardPopulaires{
+    width: 700px;
+    margin-bottom: 40px;
+}
+.HébergementsPopulaire{
+    height: 190px;
+}
+.CardImagePopulaires{
+    width: 250px;
+}
+.CardImagePopulaires img{
+    width: 250px;
+}
+.Card{
+    justify-content: space-around;
+}
+/* Fin Section2 */

@@ -1,0 +1,329 @@
+/* Header */
+main{
+    padding-left: 0px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 0%;
+}
+nav li{
+    display: flex;
+    box-shadow:inset 0 -5px #F2F2F2;
+    padding-bottom: 13px;
+    margin: 0%;
+    width: 50%;
+    justify-content: center;
+}
+nav li:hover{
+    box-shadow:inset 0px -5px #0065FC;
+    color: #0065fc;
+}
+nav img{
+    margin-top: 20px;
+    height: 48px;
+}
+li a{
+    text-align: center;
+    font-size: 16px;
+}
+nav ul{
+    width: 100%;
+    font-size: 17px;
+    margin-block-start: -15px;
+}
+/* Fin Header */
+/* Section 1 */
+#Section1{
+    padding-left: 15px;
+}
+h1{
+    margin: 30px 0 0 0;
+    font-size: 23px;
+    padding-right: 11px;
+}
+h1 + p{
+    font-size: 16px;
+    margin: 10px 0 40px 0;
+}
+/* Partie Recherche */
+.Recherche{ 
+    width: 100%;
+    align-items: baseline;
+}
+.FormulaireRecherche i{
+    visibility: visible;
+    background-color: #0065FC;
+    border: #F2F2F2;
+    color: white; /* Couleur du texte rechercher */
+    font-weight: bold; /* Ecris en gras */
+    border-radius: 15px 15px 15px 15px;
+    cursor:pointer;
+    padding: 17px;
+    margin-left: -30px;
+}
+.FormulaireRecherche{
+    width: 79%;
+}
+.FormulaireRecherche button{
+    display: none;
+}
+#search i{
+    background-color: #0065FC;
+}
+.IconeRecherche{
+    text-align: center;
+    padding: 11.5px 12px 14px 15px;
+    width: 50px;
+    font-size: 21px;
+}
+input{
+    padding: 0 20px 0 20px;
+    font-size: 18px;
+}
+/* Fin Partie Recherche */
+/* Partie Filtres */
+#Filtre{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin: 25px 0 0 0;
+}
+#IconeFiltres{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 0px;
+    margin-left: -3%;
+}
+.IconeFiltres{
+    margin: 0 0 10px 10px;
+}
+#FiltreInfo{
+    align-items: baseline;
+}
+#FiltreInfo p{
+    margin-left: -10px;
+    font-size: 16px;
+}
+.Filtres{
+    padding: 23px 13.5px 23px 15px;
+    font-size: 20.5px;
+}
+#Filtre p{
+    font-size: 17px;
+}
+.FiltreInfo i{
+    font-size: 13px;
+    padding: 3px 7px 3px 7px;
+}
+/* Fin Partie Filtres */
+/* Début Section 2 */
+#Section2 {
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    margin-left: 0px;
+}
+.CardEtoiles{
+    font-size: 12px;
+} 
+/* Partie Populaire */
+#CardPopTitre h2{
+    font-size: 22px;
+}
+#EtoilePop{
+    font-size: 21px;
+}
+#CardPopulaires{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    padding: 0 18px 0 19px;
+}
+.HébergementsPopulaire{
+    width: 340px;
+    height: 147px;
+    margin: 10px 0 10px 0;
+}
+.CardImagePopulaires{
+    width: 131px;
+}
+.CardCorpsPopulaires{
+    width: 60%;
+}
+.CardImagePopulaires img{
+    width: 130px;
+    height: 100%;
+    object-fit: cover;
+}
+.CardEtoilesPopulaires{
+    margin: 0;
+}
+.CardCorpsPopulaires{
+    margin: 5px 0 0 20px;
+}
+.CardTitre{
+    font-size: 16px;
+}
+/* Partie Hébergements */
+.CardCorpsPopulaires{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#CardHébergements{
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+#CardHébergements h2{
+    padding-left: 20px;
+    font-size: 22px;
+}
+.Hébergements{
+    box-shadow: 0px 7px 10px #f2f2f2;
+    width: 352px;
+    height: 200px;
+    margin-bottom: 19px;
+}
+.Card{
+    justify-content: center;
+}
+.CardCorps{
+    margin: 0%;
+    padding: 10px 0 0 10px;
+}
+.CardImage img{
+    height: 55%;
+}
+#AfficherPlus{
+    font-size: 19px;
+    padding: 16px 0 20px 20px;
+}
+.CardPrix{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+/* Fin Partie Hébergements */
+/* Fin Section2 */
+/* Début Section3 */
+#Section3{
+    margin: 40px 0 0 20px;
+}
+/* Partie Activités */
+#Activités h2{
+    font-size: 23px;
+}
+.ActivitésMultiples{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+}
+.GrandesActivités{
+    width: 331px;
+    height: 200px;
+    margin-right: 0%;
+}
+.CardGrandeActivités{
+    width: 331px;
+    height: 190px;
+}
+.CardGrandeImageActivités{
+    height: 100%;
+    width: 100%;
+}
+.CardGrandeImageActivités img{
+    width: 100%;
+    margin-left: 0;
+    height: 140px;
+}
+.CardGrandeActivités p {
+    margin-block-start: 5px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.CardCorpsGrandeActivités{
+    font-size: 16px;
+}
+.CardCorpsPetiteActivités{
+    font-size: 16px;
+}
+.PetitesActivités{
+    width: 100%;
+}
+.PetitesActivités{
+    width: 100%;
+    height: 400px;
+    margin: 15px 0 15px 0;
+}
+.ActivitésMarseille{
+    width: 100%;
+}
+.CardPetiteImageActivités{
+    height: 100%;
+    width: 330px;
+}
+.CardPetiteImageActivités img{
+    width: 100%;
+    margin-left: 0;
+    height: 125%;
+}
+#Activités p{
+    display: flex;
+    align-items: baseline;
+    padding-left: 5%;
+}
+.CardCorpsPetiteActivités p{
+    margin-block-start: -30px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.ActivitésPortFrioul{
+    flex-direction: column;
+    width: 350px;
+}
+.ActivitésFort{
+    width: 331px;
+    height: 190px;
+    margin-bottom: 0%;
+}
+.ActivitésFrioul{
+    width: 331px;
+    height: 190px;
+}
+.ActivitésGarde{
+    width: 331px;
+    height: 190px;
+}
+.ActivitésLongchamp{
+    width: 331px;
+    height: 190px;
+}
+.ActivitésCalanquesLongchamp{
+    flex-direction: column;
+    width: 350px;
+}
+/* Fin Partie Activités */
+/* Fin Section 3 */
+/* Footer */
+#Footer{
+    flex-direction: column;
+}
+#Footer ul{
+    padding-left: 15px;
+}
+#APropos{
+    width: 300px;
+}
+#NosHébergements{
+    width: 300px;
+}
+li h3{
+    font-size: 17px;
+}
